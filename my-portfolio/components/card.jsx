@@ -1,11 +1,11 @@
 //import{ useState } from 'react';
 
 function Card() {
-   <div> 
+ return (  <div> 
     <p >
     test 
     </p>
-   </div>
+   </div> )
 }
 
 export default Card; 
