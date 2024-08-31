@@ -2,16 +2,17 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
-import Card from '../components'
-
+import Card from './components/card/card'
+ import Nav from './components/nav/Nav'
 
 function App() {
  
   return (
-   <div className='cardBody'>
+    <>
+    <Nav/>
     <Card /> 
-    </div>
     
+    </>
   )
 }
 
