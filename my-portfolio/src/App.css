@@ -34,7 +34,13 @@
   }
 }
 
+.card{
+  background-color: #F0F0F0;
+  padding: 20px;
+  border-radius: 5px;
+  color: #333;
 
+}
 
 .read-the-docs {
   color: #888;

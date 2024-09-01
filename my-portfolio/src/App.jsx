@@ -3,7 +3,7 @@
 // import viteLogo from '/vite.svg'
 import './App.css'
 import Card from './components/UI/card/card'
-//  import Nav from './components/UI/nav/Nav'
+ //import Nav from './components/UI/nav/Nav'
 import './App.css'
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
   return (
     <>
     {/* <Nav/> */}
-    <Card name="card"/> 
+    <Card/> 
     
     </>
   )
