@@ -2,7 +2,7 @@
 
 function Card() {
  return (  <div> 
-    <p >
+    <p id="card" >
     test 
     </p>
    </div> )
