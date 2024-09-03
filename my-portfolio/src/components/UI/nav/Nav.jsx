@@ -1,19 +1,26 @@
-import { Link } from 'react-router-dom';
-import Navbar from '../Navbar';
+// import { Link } from 'react-router-dom';
+// import Navbar from '../Navbar';
 
-export default function Nav() {
-    return (  
-      <Navbar
-      links={[
-        <Link key={1} className="nav-link text-light" to="/">
-          Home
-        </Link>,
-        <Link key={2} className="nav-link text-light" to="/about">
-          About Us
-        </Link>,
-      ]}
-    />
-  );
-}
-
+// export default function Nav() {
+//     return (  
    
+//   );
+// }
+
+import './nav.css'
+
+  export default function Nav(){
+    return (
+      <div className="header">
+      <ul>
+        
+      <li><a href="/">Home</a></li>
+      <li><a href="/portfolio">Portfolio</a></li>
+      <li><a href="/contact">Contact</a></li>
+      
+      </ul>
+      </div>
+
+
+    )
+  }
