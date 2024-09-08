@@ -11,7 +11,7 @@ import './nav.css'
 
   export default function Nav(){
     return (
-      <div className="header">
+      <nav className="header">
       <ul>
         
       <li><a href="/">Home</a></li>
@@ -19,8 +19,10 @@ import './nav.css'
       <li><a href="/contact">Contact</a></li>
       
       </ul>
-      </div>
+      </nav>
 
 
     )
   }
+
+  

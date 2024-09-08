@@ -1,9 +1,17 @@
+
+
 .header {
     background-color: #0d0d0e;
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
     color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+   /* margin: 0; */
   }
 
+
+  nav {
+    margin: 0;
+    top: 0;
+    width: 100vw;
+    position: fixed;
+  
+  }

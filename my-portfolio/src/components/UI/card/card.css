@@ -1,10 +1,17 @@
 .card {
     border-color: black;
     border-radius: 100px;
-   
+    margin: 0;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    background-color: gray;
 }
 
 
-p {
+#tagLine {
     background-color: aqua;
 }
+

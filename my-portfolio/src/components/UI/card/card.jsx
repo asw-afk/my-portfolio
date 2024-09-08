@@ -3,9 +3,17 @@ import './card.css'
 
 function Card() {
  return   (
+
  <div className="card">
+
+   <div><img src="./assets/templatePhoto.jpg"> </div>
+
  <div><h2>Anna Silver-Wolff</h2>
- <p>Javascript, React, Nodejs, </p>
+ <p id='tagLine'>Javascript, React, Nodejs, </p>
+
+ <p> 
+    ggfdljs sodghfglk; hfdjghp;kldfhg;kldafgh a;klghdrf;gkl df
+ </p>
  </div>
 </div>
 );
