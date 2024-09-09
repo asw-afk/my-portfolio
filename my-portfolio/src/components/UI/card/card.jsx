@@ -6,7 +6,7 @@ function Card() {
 
  <div className="card">
 
-   <div><img src="./assets/templatePhoto.jpg"></img> </div>
+   <div><img src=""></img> </div>
 
  <div><h2>Anna Silver-Wolff</h2>
  <p id='tagLine'>Javascript, React, Nodejs, </p>

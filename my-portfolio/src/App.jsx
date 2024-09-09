@@ -1,20 +1,24 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-import './App.css'
-import Card from './components/UI/card/card'
- import Nav from './components/UI/nav/Nav'
-import './App.css'
 
-function App() {
+// import './App.css'
+// import Card from './components/UI/card/card'
+// import Nav from './components/UI/nav/Nav'
+// import Footer from './components/UI/footer/footer'
+// import './App.css'
+
+// function App() {
  
-  return (
-    <>
-    <Nav/>
-    <Card/> 
-    
-    </>
-  )
-}
+//   return (
+//     <>
+//     <Nav/>
+//     <Card/> 
+//     <Footer/>
+//     </>
+//   )
+// }
 
-export default App
+import pageContainer from "./components/UI/pageContainer";
+
+const App = () => <pageContainer />;
+
+
+export default App;

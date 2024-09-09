@@ -9,14 +9,29 @@
 
 import './nav.css'
 
-  export default function Nav(){
+  export default function Nav({currentPage, handlePageChange}){
     return (
       <nav className="header">
       <ul>
         
-      <li><a href="/">Home</a></li>
-      <li><a href="/portfolio">Portfolio</a></li>
-      <li><a href="/contact">Contact</a></li>
+      <li>
+        <a href="/"
+        onClick={() => handlePageChange('card')}
+        className={currentPage === 'card' ? 'nav-link active' : 'nav-link'}
+        >Home
+          </a>
+            </li>
+
+      <li>
+        <a href="/portfolio"
+        onClick={() => handlePageChange('portfolio')}
+        className={currentPage === 'portfolio' ? 'nav-link active' : 'nav-link'}
+       >Portfolio</a>
+       </li>
+
+      <li>
+        <a href="/contact">Contact</a>
+        </li>
       
       </ul>
       </nav>
@@ -25,4 +40,4 @@ import './nav.css'
     )
   }
 
-  
+ 
