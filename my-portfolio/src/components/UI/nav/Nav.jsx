@@ -1,5 +1,5 @@
-// import { Link } from 'react-router-dom';
-// import Navbar from '../Navbar';
+import { Link } from 'react-router-dom';
+//import Navbar from '../Navbar';
 
 // export default function Nav() {
 //     return (  
@@ -9,29 +9,39 @@
 
 import './nav.css'
 
-  export default function Nav({currentPage, handlePageChange}){
-    return (
-      <nav className="header">
-      <ul>
+ export default function Nav({currentPage}){
+  const pages = ['portfolio', '/'];
+  
+  return (
+    <nav >
+      <ul className="header">
         
-      <li>
-        <a href="/"
-        onClick={() => handlePageChange('card')}
-        className={currentPage === 'card' ? 'nav-link active' : 'nav-link'}
-        >Home
-          </a>
-            </li>
-
-      <li>
-        <a href="/portfolio"
-        onClick={() => handlePageChange('portfolio')}
-        className={currentPage === 'portfolio' ? 'nav-link active' : 'nav-link'}
-       >Portfolio</a>
+       <li
+          className={`mx-5 ${currentPage === '/' && 'navActive'}`}
+          key="/"
+       >
+       
+         <Link to="/"> Home </Link>
        </li>
 
-      <li>
-        <a href="/contact">Contact</a>
-        </li>
+        {pages.map({pages} => (
+
+           <li
+           className={`mx-5 ${currentPage === `/` && 'navActive'}`}
+            key={pages}
+           >
+        
+            Portfolio
+          
+            <Link to={`/${pages}`}>{capitalizeFirstLetter(Page)}</Link>
+           </li>  
+
+
+        ))}
+      
+        <li>
+         <a href="/contact">Contact</a>
+           </li>
       
       </ul>
       </nav>

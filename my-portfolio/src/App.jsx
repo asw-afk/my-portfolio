@@ -1,24 +1,31 @@
 
-// import './App.css'
-// import Card from './components/UI/card/card'
-// import Nav from './components/UI/nav/Nav'
-// import Footer from './components/UI/footer/footer'
-// import './App.css'
+import './App.css'
+import Card from './components/UI/card/card'
+import Nav from './components/UI/nav/Nav'
+import Footer from './components/UI/footer/footer'
+import './App.css'
 
-// function App() {
- 
-//   return (
-//     <>
-//     <Nav/>
-//     <Card/> 
-//     <Footer/>
-//     </>
-//   )
-// }
+function App() {
+  //const currentPage = useLocation().pathname;
 
-import pageContainer from "./components/UI/pageContainer";
+  return (
+    <>
+    
+    <Nav />
 
-const App = () => <pageContainer />;
+    <Card>
+      
+      
+        </Card>
+
+    <Footer/>
+    </>
+  )
+}
+
+// import PageContainer from "./components/UI/pageContainer";
+
+// const App = () => <PageContainer />;
 
 
 export default App;
