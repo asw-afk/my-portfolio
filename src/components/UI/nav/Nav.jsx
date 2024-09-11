@@ -7,7 +7,7 @@
 //   );
 // }
 
-import './nav.css'
+import './Nav.css'
 
   export default function Nav(){
     return (
@@ -26,8 +26,7 @@ import './nav.css'
   }
 
   
-  
-import './nav.css'
+
 
 // export default function Nav({currentPage}){
 //  const pages = ['portfolio', '/'];
