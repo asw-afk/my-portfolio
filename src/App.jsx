@@ -1,6 +1,6 @@
-
-import './App.css'
-import Card from './components/UI/card/card'
+// import React from 'react';
+import './App.css';
+import Card from './components/UI/card/card';
 import Nav from './components/UI/nav/Nav'
 import Footer from './components/UI/footer/footer'
 import Portfolio from './components/UI/card/Portfolio'
@@ -11,9 +11,8 @@ function App() {
 
   return (
     <>
-    
-    <Nav />
-
+   <Nav></Nav>
+   
     <Card>
         </Card>
 

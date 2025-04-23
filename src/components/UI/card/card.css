@@ -3,14 +3,16 @@
     justify-content: center;
     border-color: black;
     border-radius: 100px;
-  
-    margin-top: 10%;
     background-color: gray;
-    
-    text-align:center;
-  
+    height: 34vh;
+    width: 70%;
+    margin: 0 auto;
 }
 
+.card img {
+    border-radius: 150px;
+    height: 35vh;
+}
 
 #tagLine {
     color: rgb(124, 11, 11);

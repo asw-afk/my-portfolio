@@ -14,7 +14,11 @@
     width: 100vw;
     position: fixed;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
+  }
+
+  nav ul {
+    padding: 0;
+    margin-top: 0;
   }
 
   nav li {
