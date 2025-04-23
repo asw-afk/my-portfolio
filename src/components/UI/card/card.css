@@ -1,13 +1,14 @@
 .card {
+    display: flex;
+    justify-content: center;
     border-color: black;
     border-radius: 100px;
-    margin: 0;
-    display: flex;
-    place-items: center;
-    justify-content: center;
-    align-items: center;
+  
     margin-top: 10%;
     background-color: gray;
+    
+    text-align:center;
+  
 }
 
 
@@ -15,3 +16,8 @@
     color: rgb(124, 11, 11);
 }
 
+.portfolioList {
+    display: flex;
+    justify-content: center;
+    
+}

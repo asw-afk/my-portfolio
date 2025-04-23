@@ -1,11 +1,12 @@
+
 import './card.css'
 
 function Portfolio() {
  return   (
 
- <div className="card">
+ <div className="portfolioList">
 
-   <p> sphmpfgsfkmhbs;fgbng</p>
+   <p> test</p>
  
 </div>
 );

@@ -3,6 +3,7 @@ import './App.css'
 import Card from './components/UI/card/card'
 import Nav from './components/UI/nav/Nav'
 import Footer from './components/UI/footer/footer'
+import Portfolio from './components/UI/card/Portfolio'
 import './App.css'
 
 function App() {
@@ -14,9 +15,9 @@ function App() {
     <Nav />
 
     <Card>
-      
-      
         </Card>
+
+    <Portfolio></Portfolio>
 
     <Footer/>
     </>
