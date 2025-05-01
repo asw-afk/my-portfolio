@@ -6,7 +6,7 @@ function Portfolio() {
 
  <div className="portfolioList">
 
-   <p> test</p>
+   <p> Test</p>
  
 </div>
 );
