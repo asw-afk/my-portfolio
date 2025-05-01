@@ -4,6 +4,7 @@ import Card from './components/UI/card/card';
 import Nav from './components/UI/nav/Nav'
 import Footer from './components/UI/footer/footer'
 import Portfolio from './components/UI/card/Portfolio'
+import Nest from './components/UI/Nest/Nest'
 import './App.css'
 
 function App() {
@@ -11,21 +12,14 @@ function App() {
 
   return (
     <>
-   <Nav></Nav>
+   <Nav/>
    
-    <Card>
-        </Card>
-
-    <Portfolio></Portfolio>
+  <Nest></Nest>
 
     <Footer/>
     </>
   )
 }
-
-// import PageContainer from "./components/UI/pageContainer";
-
-// const App = () => <PageContainer />;
 
 
 export default App;
