@@ -7,8 +7,6 @@ body, html{
 
 .card{
   background-color: #F0F0F0;
-  padding: 30px;
-  border-radius: 5px;
   color: #333;
   display: flex;
   justify-content: center;

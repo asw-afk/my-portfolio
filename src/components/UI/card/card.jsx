@@ -2,6 +2,8 @@
 import templatePhoto from '../../../assets/templatePhoto.jpg'
 import './card.css'
 
+
+
 function Card() {
  return   (
 

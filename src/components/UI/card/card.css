@@ -6,8 +6,10 @@
     background-color: gray;
     height: 34vh;
     width: 70%;
-    margin: 0 auto;
+    margin-top: 80px;
+    
 }
+
 
 .card img {
     border-radius: 150px;
