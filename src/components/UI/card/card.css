@@ -13,15 +13,24 @@
 
 .card img {
     border-radius: 150px;
+    size: 10000000px;
     height: 35vh;
 }
 
+
 #tagLine {
-    color: rgb(124, 11, 11);
+    color: rgb(32, 4, 4);
 }
 
 .portfolioList {
     display: flex;
     justify-content: center;
     
+}
+
+#dialCenter {
+    background-color: rgb(209, 0, 0);
+    height: 20px;
+    width: 20px;
+    border-radius: 100px;
 }
