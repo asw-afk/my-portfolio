@@ -5,16 +5,19 @@
     border-radius: 100px;
     background-color: gray;
     height: 34vh;
-    width: 70%;
+    width: 70vh;
     margin-top: 80px;
     
 }
 
 
 .card img {
+    position: relative;
+    margin: 20%;
     border-radius: 150px;
     size: 10000000px;
-    height: 35vh;
+    height: 80%;
+    margin-left: -50px;
 }
 
 
@@ -28,9 +31,4 @@
     
 }
 
-#dialCenter {
-    background-color: rgb(209, 0, 0);
-    height: 20px;
-    width: 20px;
-    border-radius: 100px;
-}
+

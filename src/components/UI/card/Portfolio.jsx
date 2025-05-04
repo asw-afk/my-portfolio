@@ -6,7 +6,7 @@ function Portfolio() {
 
  <div className="portfolioList">
 
-  <div id="dialCenter"></div>
+  <div id="timeLine"></div>
 
    <p> Test</p>
  
