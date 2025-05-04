@@ -19,9 +19,6 @@ function Card() {
         Anna Silver-Wolff
        </h2>
 
- <p id='tagLine'>
-    Javascript, React, Nodejs, 
-      </p>
 
  <p> 
     ggfdljs sodghfglk; hfdjghp;kldfhg;kldafgh a;klghdrf;gkl df
