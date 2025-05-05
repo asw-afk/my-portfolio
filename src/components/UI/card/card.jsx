@@ -1,7 +1,7 @@
 //import{ useState } from 'react';
 import templatePhoto from '../../../assets/templatePhoto.jpg'
 import './card.css'
-
+import Tags from './tags';
 
 
 function Card() {
@@ -24,6 +24,8 @@ function Card() {
     ggfdljs sodghfglk; hfdjghp;kldfhg;kldafgh a;klghdrf;gkl df
  </p>
  </div>
+
+   <Tags/>
 
 </div>
 );
