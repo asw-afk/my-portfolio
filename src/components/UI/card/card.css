@@ -1,34 +1,39 @@
+/* Card container */
 .card {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Stack children vertically */
     border-color: black;
-    border-radius: 100px;
+    border-radius: 10px;
     background-color: gray;
-    height: 34vh;
+    height: auto; /* Let height adjust to content */
     width: 70vh;
     margin-top: 80px;
-    
-}
-
-
-.card img {
-    position: relative;
-    margin: 20%;
-    border-radius: 150px;
-    size: 10000000px;
-    height: 80%;
-    margin-left: -50px;
-}
-
-
-#tagLine {
-    color: rgb(32, 4, 4);
-}
-
-.portfolioList {
+    padding: 20px;
+    overflow: hidden;
+  }
+  
+  /* Image styles */
+  .card img {
+    border-radius: 50%;  /* Make image circular */
+    height: 150px;       /* Adjust image size */
+    width: 150px;        /* Keep it square */
+    margin-bottom: 12px; /* Space between image and text */
+  }
+  
+  /* Text container */
+  .card .text-container {
+    text-align: center;  /* Center the text */
+    margin-bottom: 12px; /* Space between text and button */
+  }
+  
+  /* Icons container - where the images show up */
+  #icons {
     display: flex;
     justify-content: center;
-    
-}
-
-
+    gap: 12px;            /* Add space between images */
+    flex-wrap: wrap;      /* Allow the images to wrap onto new lines */
+    margin-top: 12px;     /* Space between button and content above */
+  }
+  

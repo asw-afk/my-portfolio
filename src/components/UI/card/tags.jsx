@@ -14,12 +14,9 @@ function Tags() {
       </button>
 
       {show && (
-        <div>
+        <div style={{ marginTop: '12px', display: 'flex', gap: '10px' }}>
           {images.map((imgSrc, index) => (
-            <img key={index} 
-                src={imgSrc} 
-                alt={`tag-${index}`} 
-                width={50} />
+            <img key={index} src={imgSrc} style={{ width: '40px' }} />
           ))}
         </div>
       )}
