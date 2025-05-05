@@ -3,11 +3,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column; /* Stack children vertically */
+    flex-direction: column; 
     border-color: black;
     border-radius: 10px;
     background-color: gray;
-    height: auto; /* Let height adjust to content */
+    height: auto; 
     width: 70vh;
     margin-top: 80px;
     padding: 20px;
@@ -16,24 +16,23 @@
   
   /* Image styles */
   .card img {
-    border-radius: 50%;  /* Make image circular */
-    height: 150px;       /* Adjust image size */
-    width: 150px;        /* Keep it square */
-    margin-bottom: 12px; /* Space between image and text */
+    border-radius: 50%; 
+    height: 150px;       
+    margin-bottom: 12px; 
   }
   
   /* Text container */
   .card .text-container {
-    text-align: center;  /* Center the text */
-    margin-bottom: 12px; /* Space between text and button */
+    text-align: center; 
+    margin-bottom: 12px; 
   }
   
   /* Icons container - where the images show up */
   #icons {
     display: flex;
     justify-content: center;
-    gap: 12px;            /* Add space between images */
-    flex-wrap: wrap;      /* Allow the images to wrap onto new lines */
-    margin-top: 12px;     /* Space between button and content above */
+    gap: 12px;           
+    flex-wrap: wrap;      
+    margin-top: 12px;     
   }
   
